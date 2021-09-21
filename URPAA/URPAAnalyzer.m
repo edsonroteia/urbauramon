@@ -53,9 +53,9 @@
 
 function [PA] = URPAAnalyzer(audioFile)
     addpath('libraries');
-    addpath('libraries\libNS');
-    addpath('libraries\libR');
-    addpath('libraries\libF');
+    addpath('libraries/libNS');
+    addpath('libraries/libR');
+    addpath('libraries/libF');
 
     [xr,fso] = audioread(audioFile);
     fs = 16000;
