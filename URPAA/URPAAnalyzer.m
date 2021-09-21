@@ -51,7 +51,7 @@
 % https://github.com/jausegar/urbauramon/tree/master/URPAA  jaume.segura@uv.es  *
 %********************************************************************************
 
-function [PA] = URPAAnalyzer(audioFile)
+function [PA, N, S, R, F] = URPAAnalyzer(audioFile)
     addpath('libraries');
     addpath('libraries/libNS');
     addpath('libraries/libR');
